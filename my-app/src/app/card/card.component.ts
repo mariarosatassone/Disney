@@ -9,7 +9,7 @@ import { CharacterService } from '../services/character.service';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent implements OnInit {
-
+  
   character: Character [] = [];
 
   constructor(private CharacterService: CharacterService, private router: Router, private route: ActivatedRoute) { }

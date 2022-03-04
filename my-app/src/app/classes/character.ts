@@ -11,6 +11,9 @@ export class Character {
   imageUrl!: string;
   url!: string;
 
+
+  
+
   
 
 

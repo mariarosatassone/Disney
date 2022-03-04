@@ -1,1 +1,25 @@
-<p>films works!</p>
+<div class="container">
+    <div class="card mb-3 shadow-lg p-3 mb-5 bg-white">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="{{character.imageUrl}}" class="card-img-top h-100" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+
+                    <h1 class="card-title">{{character.name}}</h1>
+                    <h2 class="card-title">Tv Show</h2>
+
+                    <ul>
+                        <li *ngFor="let item of tvShow">{{item}}
+
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>

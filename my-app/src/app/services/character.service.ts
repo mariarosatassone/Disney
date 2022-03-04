@@ -9,6 +9,8 @@ import { CharacterData } from '../interfaces/character-data';
 })
 export class CharacterService {
 
+  character: Character [] = [];
+
   constructor(private http: HttpClient) { }
 
 
@@ -20,6 +22,8 @@ export class CharacterService {
 
   getTvShowById(_id:number) {
     return this.http.get<Character>(environment.serverDisney + _id)
+   
+
   }
 
 }
