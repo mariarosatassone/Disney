@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        <div class="col-3 my-3" *ngFor="let item of character">
+            <div class="card h-100" style="width: 18rem;">
+                <img src="{{item.imageUrl}}" class="card-img-top h-50" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title">{{item.name}}</h2>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+               
+                        <button class="btn btn-success"(click)="TvShow(item)">Go to Films</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
