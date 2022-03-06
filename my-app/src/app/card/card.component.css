@@ -1,8 +1,10 @@
 .btn {
-    background-color:#71C671;
-    justify-content: center;
+    cursor: pointer;
+}
 
-
+* {
+    font-family: 'Princess Sofia', cursive;
+    font-family: 'Sofia', cursive;
     
 }
 
